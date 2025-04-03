@@ -1,3 +1,5 @@
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+
 # IguanaDoc
 
 ## 概　要 
@@ -61,3 +63,7 @@
 <div align="center">
     <img src="img/EqnBookmark.png" width="30%">
 </div>
+
+## ライセンス
+
+&emsp;[latex_in_word](https://github.com/EngineeroLabs/latex_in_word) に準じて GNU GPL v2 で公開します．
