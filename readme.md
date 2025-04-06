@@ -5,7 +5,7 @@
 ## 概　要 
 
 &emsp;IguanaDoc.dotm は $\LaTeX$ で粗飯した数式の画像ファイルを Microsoft Word の文書の Shape オブジェクトに変換して文中に挿入する機能を実装した Microsoft Word マクロ有効テンプレートである．<br> 
-&emsp;マクロは EngineeroLabs の Engineero Nathan が GPL ライセンスで公開している git リポジトリ [latex_in_word](https://github.com/EngineeroLabs/latex_in_word) 内に含まれている latex_in_word_2010.docm を編集して，サーバーとの交信で取得している数式の画像ファイルを Yusuke Terada and Noriyuki Abe が開発した [Tex2img](https://tex2img.tech/)  で生成されるそれに変更している．<br> 
+&emsp;マクロは EngineeroLabs の Engineero Nathan が GPL ライセンスで公開している git リポジトリ [latex_in_word](https://github.com/EngineeroLabs/latex_in_word) 内に含まれている latex_in_word_2010.docm を編集して，サーバーとの交信で取得している数式の画像ファイルを Yusuke Terada and Noriyuki Abe が開発した [Tex2img](https://tex2img.tech/) [^1] で生成されるそれに変更している．<br> 
 &emsp;テンプレート名は同様の機能を Microsoft PowerPoint においてより高度に実装している [IganaTeX](https://www.jonathanleroux.org/software/iguanatex/) にあやかった．
 
 <div align="center">
@@ -67,3 +67,5 @@
 ## ライセンス
 
 &emsp;[latex_in_word](https://github.com/EngineeroLabs/latex_in_word) に準じて GNU GPL v2 で公開します．
+
+[^1]: [dvipng](https://hooktail.org/computer/index.php?dvipng) を用いる事も考えられたが良質な png ファイルを生成するための適当なオプションが不明なので TeX2Img を使用することとした．
